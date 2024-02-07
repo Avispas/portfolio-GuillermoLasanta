@@ -1,0 +1,43 @@
+@import 'core/reset.scss';
+.nav{
+  align-self: flex-start;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  &__ul {
+    display: flex;   
+    justify-content: space-between;   
+    list-style-type: none; 
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    &--li a{         
+      color: whitesmoke;
+      text-decoration: none;
+    }
+  }
+  &__h1 {
+    font-family: 'Sixtyfour', sans-serif;   
+    color: whitesmoke;
+    font-size: 16px;
+  }
+
+}
+.main{
+  background-color: black;
+}
+.presentation {
+  color: whitesmoke;
+}
+.bigBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  &__picBox{
+    width: 400px;
+    height: 600px;
+    border: 2px solid white;
+    
+  }
+}
